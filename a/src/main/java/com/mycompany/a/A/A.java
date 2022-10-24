@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.a;
+package com.mycompany.a.A;
 import Clases.*;
 import java.util.Scanner;
 //import java.util.Date;
@@ -27,7 +27,7 @@ class Main {
   public static ArrayList<playlist> playlists;
   
   public static void main(String[] args) {
-    if(verificarArchivo("C:\\Users\\hvera\\Documents\\datosPersona.txt") == false){
+    if(verificarArchivo("datosPersona.txt") == false){
 
       //Agregar canciones 
 
@@ -123,6 +123,8 @@ class Main {
       System.out.println("Opcion 2 : Mostrar datos de usuario");
       System.out.println("Opcion 3 : Ver PlayList");
       System.out.println("Opcion 4 : Crear Playlist");
+      System.out.println("Opcion 5 : Eliminar Datos Usuario");
+      System.out.println("Opcion 6 : Eliminar Aplicacion");
  
       flag = leer.nextInt();
       
